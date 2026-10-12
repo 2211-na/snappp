@@ -1,0 +1,679 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'shabnam';
+    src: url('font/Shabnam-Bold.ttf') format("ttf"),
+    url('font/Shabnam-Light.ttf')  format("ttf"),
+    url('font/Shabnam.ttf')  format("ttf");
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+   font-family: 'shabnam';
+}
+
+.right{
+height: 100%;
+width: 10%;
+color: rgb(109, 223, 56);
+text-align: center;
+font-size: 30px;
+padding-top: 25px;
+font-weight: 900;
+}
+
+
+.left{
+    height: 100%;
+    width: 90%;
+    text-align: right;
+    padding-top: 25px;
+    font-size:  20px;
+    border-radius: none;
+    display: flex;
+    padding-right: 50px;
+     position: relative;
+   
+   
+   
+}
+.left a {padding: 20px;
+    text-decoration: none;
+    color: black;
+   
+   
+}
+.u{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px;
+    line-height: 20px;
+    display: none;
+   
+}
+
+
+ .super:hover .u{
+    display: flex;
+ }
+
+
+.u li a :hover{
+    border-radius: 5px;
+   
+
+}
+
+
+
+.main{
+  display: flex;
+  flex-direction: column;
+  font-family: 'shabnam';
+  height: 2000px;
+  position: relative;
+}
+
+.first{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    text-align: right;
+
+}
+.rast{
+    width: 60%;
+    height: 100%;
+   
+   
+   
+}
+.a::before{
+    content: "\127758";
+
+}
+
+.a{
+    height: 50px;
+    width: 150px;
+    border: solid rgb(109, 223, 56) ;
+    background-color:  rgb(109, 223, 56);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 8px;
+ 
+    
+}
+.b::before{content: "\11123";
+
+}
+.b{
+    height: 50px;
+    width: 150px;
+    border: solid  rgb(109, 223, 56);
+    color: rgb(109, 223, 56) ;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+.b:hover{
+    background-color: rgb(219, 241, 224);
+}
+
+.second{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+   
+  
+  
+
+}
+.aval{
+    text-align: right;
+   
+   
+
+}
+.dovom{
+    text-align: right;
+    direction: rtl;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 200px;
+   position: relative;
+   flex-wrap: wrap;
+   
+  
+   
+}
+.dovom a{
+    text-decoration: none;
+    color: black;
+    padding: 50px;
+    
+   
+
+}
+.link{
+    display: flex;
+   
+    text-align: right;
+   
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px;
+    line-height: 20px;
+   
+}
+.sevom{
+    width: 100%;
+ position: relative;
+ display: block !important;
+   
+    border-radius: 20px;
+    overflow: visible;
+   height: 500px;
+   margin-top: 100px;
+   visibility: visible;
+   opacity: 1;
+
+  
+    
+    
+}
+.slides{width: 300%;
+    display: flex;
+    animation: sevo 12s  infinite;
+
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide{
+    width: 33%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+@keyframes sevo{
+
+    0%,25%{transform: translateX(0);
+
+    }
+    33.33%,58%{transform: translateX(-33.33%);
+
+    }
+    66.33%,91%{transform: translateX(-66.66%);
+
+    }
+    100%{transform: translateX(0);
+
+    }
+}
+.char{
+    
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+    position: absolute;
+   margin-bottom: 120px;
+}
+
+.char span{
+    width: 12px;
+    height: 12px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid rgb(5, 5, 5);
+    transition: 0.3s;
+  
+}
+.panj{
+   
+    
+    background-color: rgb(236, 229, 229);
+    width: 100%;
+    text-align: center;
+    height:800px;
+    border-radius: 20px;
+}
+.panj button{
+    height: 40px;
+    width: 150px;
+    border: solid  rgb(109, 223, 56);
+    color:white;
+    font-size: 20px;
+    border-radius: 8px;
+    background-color:rgb(109, 223, 56) ;
+
+}
+.panj video{
+    border-radius: 20px;
+}
+.shish{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color:rgb(240, 240, 247);
+   
+    
+    width: 100%;
+    height: 900px;
+    border: 10px solid rgb(247, 246, 245);
+    padding: 10px;
+    text-align: center;
+    direction: ltr;
+    gap: 5px;
+   
+}
+.shish div{
+   border: 0.5px solid white;
+   border-radius: 10px;
+}
+.haft{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1200px;
+   
+}
+.ghaza{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    
+}
+.ghaza div{
+    height: 150px;
+    width: 700px;
+    
+     border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 10px 10px rgb(228, 225, 225);
+}
+.ghaza img{
+    border-radius: 10px ;
+}
+.bime{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+}
+.bime div{
+    height: 150px;
+    width: 700px;
+    
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 10px 10px rgb(228, 225, 225);
+}
+.bime img{
+    border-radius: 10px ;
+}
+.pay{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+}
+
+.pay div{
+    height: 150px;
+    width: 700px;
+    
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 10px 10px rgb(228, 225, 225);
+}
+.pay img{
+    border-radius: 10px ;
+}
+.safar{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+}
+
+.safar div{
+    height: 150px;
+    width: 700px;
+   
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
+    box-shadow: 10px 10px rgb(228, 225, 225);
+}
+.safar img{
+    border-radius: 10px ;
+}
+.haft button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 0.5px rgb(109, 223, 56) ;
+    color: rgb(109, 223, 56);
+    
+}
+.hasht{
+    width: 100%;
+    height: 800px;
+   
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.matn{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    direction: rtl;
+}
+.aks{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    margin-right: 100px;
+ 
+}
+.aks div{
+    padding-left: 100px;
+}
+.aks img{
+    border-radius: 10px;
+}
+.aks a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+  
+   margin-top: 2100px;
+   display: flex;
+   flex-direction: column;
+   font-family: 'shabnam';
+}
+.links{width: 100%;
+    height: 20%;
+    text-align: center;
+
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+ 
+}
+.adres{width: 100%;
+    height: 30%;
+    text-align: center;
+
+}
+.namad{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .left {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 13px;
+    }
+    .left a {
+        padding: 8px;
+    }
+    .u {
+        max-width: 90vw;
+    }
+    .main {
+        width: 100%;
+        height: auto;
+    }
+    .first {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .rast {
+        width: 100%;
+        height: auto;
+    }
+    .a,
+    .b {
+        max-width: 100%;
+        margin: 5px;
+        font-size: 15px;
+    }
+    .second {
+        width: 100%;
+        height: auto;
+    }
+    .aval {
+        width: 100%;
+        padding: 10px;
+    }
+    .dovom {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dovom a {
+        padding: 10px;
+    }
+    .link {
+        width: 100%;
+        max-width: 100%;
+    }
+    .sevom {
+        position: relative;
+        width: 100%;
+        height: 220px;
+        min-height: 0;
+        overflow: hidden;
+    }
+    .slides {
+        width: 300%;
+        height: 100%;
+    }
+    .slide {
+        flex: 0 0 33.3333%;
+        width: 33.3333%;
+        height: 220px;
+    }
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .char {
+        bottom: 10px;
+        margin-bottom: 0;
+    }
+    .panj {
+        width: 100%;
+        height: auto;
+        padding: 20px 12px;
+        margin-top: 15px;
+    }
+    .panj h1 {
+        font-size: 21px;
+        line-height: 1.8;
+    }
+    .panj h4 {
+        font-size: 14px;
+        line-height: 2;
+    }
+    .panj button {
+        max-width: 100%;
+        font-size: 16px;
+    }
+    .panj video {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .shish {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 15px;
+        border-width: 0;
+        gap: 20px;
+    }
+    .shish > div {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .shish h4 {
+        font-size: 13px;
+        line-height: 2;
+    }
+    .shish br {
+        display: none;
+    }
+    .haft {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        gap: 25px;
+    }
+    .ghaza,
+    .bime,
+    .pay,
+    .safar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .ghaza > div,
+    .bime > div,
+    .pay > div,
+    .safar > div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    .ghaza > div > img,
+    .bime > div > img,
+    .pay > div > img,
+    .safar > div > img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3 / 1;
+        object-fit: cover;
+    }
+    .ghaza figcaption,
+    .bime figcaption,
+    .pay figcaption,
+    .safar figcaption {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+    }
+    .ghaza figcaption img,
+    .bime figcaption img,
+    .pay figcaption img,
+    .safar figcaption img {
+        width: 40px;
+        height: auto;
+    }
+    .ghaza button,
+    .bime button,
+    .pay button,
+    .safar button {
+        max-width: 100%;
+        font-size: 13px;
+    }
+    .hasht {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .matn {
+        width: 100%;
+    }
+    .aks {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .aks > div {
+        width: 100%;
+        min-width: 0;
+    }
+    .aks img {
+        width: 1}}
